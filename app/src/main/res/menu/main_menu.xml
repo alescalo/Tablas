@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Estadística"
+        android:orderInCategory="100"
+        android:title="@string/quimica"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/tabla_periodica"
+                android:title="@string/tabla_periodica" />
+            <item
+                android:id="@+id/formulacionInorganica"
+                android:title="@string/formulacion_inorganica" />
+            <item
+                android:id="@+id/formulacionOrganica"
+                android:title="@string/formulacion_organica" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Matematicas"
+        android:title="@string/matematicas" >
+        <menu>
+            <item
+                android:id="@+id/Derivadas"
+                android:title="@string/derivadas" />
+            <item
+                android:id="@+id/integrales"
+                android:title="@string/integrales" />
+        </menu>
+    </item>
+    <item android:title="@string/estad_stica">
+        <menu>
+            <item
+                android:id="@+id/tabla_normal"
+                android:title="@string/tabla_normal" />
+            <item
+                android:id="@+id/tabla_xi2"
+                android:title="@string/tabla_xi_2" />
+            <item
+                android:id="@+id/valores_criticos_xi2"
+                android:title="@string/valores_cr_ticos_xi_2" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/ingenieria"
+        android:title="@string/ingenieria">
+        <menu>
+            <item
+                android:id="@+id/tablas_de_la_verdad"
+                android:title="@string/tablas_de_la_verdad" />
+            <item
+                android:id="@+id/tabla_de_resistencias"
+                android:title="@string/tabla_de_resistencias" />
+            <item
+                android:id="@+id/aleaciones"
+                android:title="@string/aleaciones" />
+        </menu>
+    </item>
+
+</menu>

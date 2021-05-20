@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tablas</string>
+    <string name="action_settings">action_settings</string>
+    <string name="estad_stica">Estadística</string>
+    <string name="tabla_periodica">Tabla periodica</string>
+    <string name="formulacion_organica">Formulación orgánica</string>
+    <string name="formulacion_inorganica">Formulación inorgánica</string>
+    <string name="matematicas">Matematicas</string>
+    <string name="integrales">Integrales</string>
+    <string name="derivadas">Derivadas</string>
+    <string name="quimica">Química</string>
+    <string name="tabla_normal">Tabla normal</string>
+    <string name="tabla_xi_2">Tabla Xi^2</string>
+    <string name="valores_cr_ticos_xi_2">Valores críticos Xi^2</string>
+    <string name="aleaciones">Aleaciones</string>
+    <string name="ingenieria">Ingeniería</string>
+    <string name="tablas_de_la_verdad">Tablas de la verdad</string>
+    <string name="tabla_de_resistencias">Tabla de resistencias</string>
+    <string-array name="tablasQuímica">
+        <item>Tabla Periodica</item>
+        <item>Formulación inorgánica</item>
+        <item>Formulación orgánica</item>
+    </string-array>
+    <string-array name="tablasMatemáticas">
+        <item>Integrales</item>
+        <item>Derivadas</item>
+    </string-array>
+</resources>
